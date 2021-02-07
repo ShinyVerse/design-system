@@ -1,7 +1,12 @@
 {
   "name": "@shinyverse/design-system",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
+    "publish": "lerna run tsc && lerna publish",
     "test": "jest"
   },
   "devDependencies": {
@@ -18,7 +23,6 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
-  "type": "module",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional",
@@ -32,8 +36,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  ]
 }
