@@ -1,0 +1,32 @@
+{
+  "name": "@shinyverse/design-system",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "eslint": "^7.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.2.2",
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5",
+    "prettier-plugin-package": "^1.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
