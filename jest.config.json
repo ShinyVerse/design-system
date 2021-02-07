@@ -3,15 +3,11 @@
   "collectCoverage": true,
   "collectCoverageFrom": ["packages/**/*.ts", "packages/**/*.tsx"],
   "coveragePathIgnorePatterns": ["/coverage/", "/lib/", "/dist/", "/build/"],
-  "coverageThreshold": {
-    "global": {
-      "branches": 50,
-      "functions": 50,
-      "lines": 50,
-      "statements": 50
-    }
-  },
+  "transformIgnorePatterns": ["/node_modules/(?!${esModules})"],
   "moduleNameMapper": {
     "\\.(css)$": "identity-obj-proxy"
+  },
+  "transform": {
+    "^.+\\.ts?$": "ts-jest"
   }
 }
