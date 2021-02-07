@@ -1,6 +1,6 @@
 {
-  "name": "shinyverse/design-system",
-  "version": "1.0.0",
+  "name": "@shinyverse/design-system",
+  "version": "1.0.2",
   "private": false,
   "license": "ISC",
   "main": "index.js",
