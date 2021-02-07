@@ -1,6 +1,6 @@
 {
   "name": "@shinyverse/design-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "license": "ISC",
   "main": "index.js",
@@ -33,6 +33,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publicConfig": {
+    "access": "public"
   },
   "workspaces": [
     "packages/*"
