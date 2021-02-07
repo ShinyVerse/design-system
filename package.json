@@ -1,8 +1,8 @@
 {
-  "name": "@shinyverse/design-system",
+  "name": "@shinyverse-design-system/ds",
   "version": "1.0.0",
   "private": false,
-  "license": "MIT",
+  "license": "ISC",
   "main": "index.js",
   "type": "module",
   "scripts": {
