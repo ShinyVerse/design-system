@@ -2,7 +2,7 @@
   "name": "tokens",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Laura Jackson <playeronereadystart@gmail.com>",
+  "author": "shinyverse",
   "homepage": "https://github.com/ShinyVerse/design-system#readme",
   "license": "ISC",
   "main": "src/tokens.js",
