@@ -1,5 +1,5 @@
-const colours = {
+const tokens = {
   white: "#fff",
 };
 
-export const tokens = () => colours;
+module.exports = tokens;
